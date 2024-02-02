@@ -1,0 +1,201 @@
+<!-- Emails use the XHTML Strict doctype -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+
+<head>
+    <!-- The character set should be utf-8 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- Link to the email's CSS, which will be inlined into the email -->
+    <link rel="stylesheet" href="foundation-emails.css">
+    <style>
+        *{
+            font-family: 'Verdana', sans-serif;
+        }
+        table.container {
+            max-width: 760px !important;
+            width: 100%;
+            margin: 0;
+            margin-left: 0;
+        }
+
+        table.body {
+            background: "";
+        }
+
+        td.large-6,
+        th.large-6 {
+            width: 364px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        td.large-3,
+        th.large-3 {
+            width: 174px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        td.large-9,
+        th.large-9 {
+            width: 554px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+  
+
+        @media screen and (max-width:460px) {
+            p.under-logo {
+                margin: 0;
+            }
+        }
+
+        .profile-photo{
+            padding-right:30px;
+        }
+        .position {
+            font-weight: 300;
+            color: #000000;
+            font-size: 16px;
+            margin-bottom: 20px;
+    font-family: 'Verdana', sans-serif;
+            text-align:left;
+            margin-top:0;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: 700;
+            line-height:1;
+            color: #000000;
+            margin-bottom: 5px;
+       font-family: 'Verdana', sans-serif;
+            text-align:left;
+            margin-top:0;
+        }
+
+    .footer {
+            padding-top: 11px;
+            text-align:left;
+               color: #454545;
+            font-size: 12px;
+            font-weight:300;
+            line-height: 15px;
+        }    
+
+        .separator td {
+            width: 100%;
+            border-bottom: .5px solid #454545;
+            padding-bottom: 0px;
+            line-height: 0;
+        }
+
+        .separator {
+            width: 100%;
+        }
+        .contact-details{
+            margin-bottom:20px;
+        }
+             .contact-details td,
+        .contact-details a {
+            color: #454545;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 0px;
+            font-weight:500;
+            text-decoration:none;
+            text-align:left;
+        }
+        .contact-details__icon{
+            width: 27px;
+        }
+            .contact-company{
+                width:auto;
+            }
+        .contact-company td{
+            padding-right:15px;
+            width:24px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- Wrapper for the body of the email -->
+    <table class="body" data-made-with-foundation>
+        <tr>
+            <!-- The class, align, and <center> tag center the container -->
+            <td class="float-left" align="left" valign="top">
+                <table class="container">
+                    <tr>
+                        <td class="p-top-30">
+                            <table class="row">
+                                <tr>
+                                    <th class="small-12 large-4 columns first">
+                                        <table class="profile-photo">
+                                            <tr>
+                                                <td><img src="assets/frontman-logo-ctverec.jpg" width="200" alt="fotka" /></td>
+                                            </tr>
+                                        </table>
+                                    </th>
+                                    <th class="small-12 large-8 columns">
+                                        <p class="name">Eva Vlachynská Ringlová</p>
+                                        <p class="position">Obchodní konzultant a ekonomický analytik</p>
+                                        <table class="contact-details">
+                                            <tr>
+                                                <td class="contact-details__icon"><img src="assets/ico-tel.jpg" width="12" height="12" /></td>
+                                                <td><a href="tel:+420907663776" target="_blank">+420 907 663 776</a></td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="contact-details__icon"><img src="assets/ico-mail.jpg" width="12" /></td class="contact-details__icon">
+                                                <td><a href="mailto:mruskovicova@imfrontman.com"
+                                                        target="_blank">mruskovicova@imfrontman.com</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="contact-details__icon"><img src="assets/ico-marker.jpg" width="12" /></td class="contact-details__icon">
+                                                <td><a href="https://imfrontman.com"
+                                                        target="_blank">www.imfrontman.com</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="contact-company">
+                                            <tr>
+                                                <td><a href="https://imfrontman.com" target="_blank"><img src="assets/ico-web.jpg"></a></td>
+                                                <td><a href="https://imfrontman.com" target="_blank"><img src="assets/ico-lin.jpg"></a></td>
+                                                <td><a href="https://imfrontman.com" target="_blank"><img src="assets/ico-fb.jpg"></a></td>
+                                                <td><a href="https://imfrontman.com" target="_blank"><img src="assets/ico-insta.jpg"></a></td>
+                                                <td><a href="https://imfrontman.com" target="_blank"><img src="assets/ico-yt.jpg"></a></td>
+                                            </tr>
+                                        </table>
+                                    </th>
+                                    <th class="expander"></th>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="separator">
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                            <table class="row">
+                                <tr>
+                                    <th class="columns first last small-12 footer">Právní informace: tento e-mail a všechny připojené soubory jsou důvěrné a mohou být chráněny zákonem. Tento
+                                    e-mail je určen pouze uvedenému příjemci a dalším osobám, které jsou jmenovitě uvedeny jako příjemci.</th>
+                                    <th class="expander"></th>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

